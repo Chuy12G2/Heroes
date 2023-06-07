@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.header-parrafo{
+    background-color: #1CD1B0;
+    padding: 10px;
+}
+
+.main-encabezado{
+    background-color: #00669F;
+    margin: 0;
+    padding: 40px 10px;
+}
+
+.contenedor-tarjetas{
+    text-align: center;
+}
+
+.tarjeta{
+    width: 300px;
+    background-color: #F3F3F3;
+    position: relative;
+    display: inline-block;
+    margin: 128px 12px;
+}
+
+.tarjeta-fondo-batman{
+    background-image: url('../img/batman-fondo.png');
+    height: 190px;
+}
+
+.tarjeta-fondo-harley{
+    background-image: url('../img/harley-fondo.png');
+    height: 190px;
+}
+
+.foto-heroe{
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    left: 90px;
+}
+
+.tarjeta-titulo{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.descripcion{
+    padding: 15px;
+}
+
+.corazon{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.btn{
+    display: block;
+    padding: 10px 20px;
+    background-color: #00669F;
+    margin: 20px auto;
+    color: white;
+    border: none;
+}
+
+footer{
+    background-color: #00669F;
+    color: white;
+    height: 50px;
+}
+
+footer p{
+padding: 15px;
+}
